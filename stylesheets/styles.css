@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+nav{
+    float:left;
+    background-color: #414D59;
+    width: 12em;
+    height: 62em;
+}
+
+ul {
+    margin-top: 2em;
+    padding: 0;
+}
+
+a {
+    color: white;
+    padding-left: 3em;
+    padding-right: 1em;
+    display: block;
+    margin-top: 0px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position-x: 1em;
+    background-size: 1.1em;
+    
+}
+
+a:hover {
+    background-color: #313C46;
+    border-left: 5px solid orange;
+    
+}
+
+#general {
+    background-image: url(./icons/switchicon.png);
+    background-size: 1.5em;
+}
+
+#search {
+    background-image: url(./icons/searchicon.svg);
+    background-size: 1.5em;
+}
+
+#content {
+    background-image: url(./icons/content.png);
+    background-size: 1.5em;
+}
+
+#application {
+    background-image: url(./icons/application.png);
+}
+
+#privacy {
+    background-image: url(./icons/privacy.png);
+}
+
+#security {
+    background-image: url(./icons/security.png);
+}
+
+#sync {
+    background-image: url(./icons/sync.png);
+}
+
+#advanced {
+    background-image: url(./icons/advanced.png);
+}
